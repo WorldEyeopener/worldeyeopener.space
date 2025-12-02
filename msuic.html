@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Music • WorldEyeopener</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <span>WorldEyeopener</span>
+        <span>Waves • Frequencies • Vibes</span>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="music.html">Music</a>
+        <a href="chess.html">Chess</a>
+        <a href="fashion.html">Fashion</a>
+        <a href="contact.html">Contact</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page">
+      <h1 class="page-title">Music</h1>
+      <p class="page-subtitle">
+        WorldEyeopener music for focus, inspiration, and manifestation. Stream the
+        demos here and buy full-quality tracks to support the vision.
+      </p>
+
+      <div class="card">
+        <div class="card-tag">Featured EP</div>
+        <div class="card-title">[Your EP Name Here]</div>
+        <p>
+          Describe your sound here – lo-fi, cinematic, spiritual, motivational,
+          whatever your lane is.
+        </p>
+      </div>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Track</th>
+            <th>Preview</th>
+            <th>License</th>
+            <th>Buy Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>WorldEye Intro</td>
+            <td>
+              <!-- replace src with your real audio file when ready -->
+              <audio controls>
+                <source src="audio/worldeye-intro-demo.mp3" type="audio/mpeg" />
+                Your browser does not support audio.
+              </audio>
+            </td>
+            <td>Personal / Stream</td>
+            <td><a class="btn-outline" href="#" target="_blank">Buy $5</a></td>
+          </tr>
+          <tr>
+            <td>Chess & Code</td>
+            <td>
+              <audio controls>
+                <source src="audio/chess-and-code-demo.mp3" type="audio/mpeg" />
+              </audio>
+            </td>
+            <td>Creator License</td>
+            <td><a class="btn-outline" href="#" target="_blank">Buy $15</a></td>
+          </tr>
+          <tr>
+            <td>Saint’s Stoic Soul</td>
+            <td>
+              <audio controls>
+                <source src="audio/saints-stoic-soul-demo.mp3" type="audio/mpeg" />
+              </audio>
+            </td>
+            <td>Commercial License</td>
+            <td><a class="btn-outline" href="#" target="_blank">Buy $40</a></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p class="text-muted" style="margin-top: 1rem;">
+        When you’re ready, connect each “Buy” button to your payment page (Gumroad,
+        PayPal, Stripe, etc.) so people can pay and instantly download.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      © <span id="year"></span> WorldEyeopener. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
