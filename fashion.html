@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Fashion • WorldEyeopener</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <span>WorldEyeopener</span>
+        <span>Fashion • Wear the Vision</span>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="music.html">Music</a>
+        <a href="chess.html">Chess</a>
+        <a href="fashion.html">Fashion</a>
+        <a href="contact.html">Contact</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page">
+      <h1 class="page-title">Fashion</h1>
+      <p class="page-subtitle">
+        WorldEyeopener Fashion is about wearing your frequency – from subtle streetwear
+        to statement pieces.
+      </p>
+
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-tag">Drop 001</div>
+          <div class="card-title">EyeOpener Tee</div>
+          <p>
+            Minimal front logo, powerful back message. Designed for creators,
+            thinkers, and world shifters.
+          </p>
+          <p class="text-muted">Colorways: Black / White / Midnight Blue</p>
+          <div class="card-actions">
+            <!-- connect to your store page -->
+            <a class="btn" href="#" target="_blank">Shop Tee</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-tag">Drop 002</div>
+          <div class="card-title">Aura Hoodie</div>
+          <p>
+            Heavyweight hoodie with subtle WorldEyeopener iconography and a soft,
+            future-coded feel.
+          </p>
+          <p class="text-muted">Colorways: Onyx / Smoke / Cloud</p>
+          <div class="card-actions">
+            <a class="btn" href="#" target="_blank">Shop Hoodie</a>
+          </div>
+        </div>
+      </div>
+
+      <p class="text-muted" style="margin-top: 1rem;">
+        When ready, connect each button to your store (Printful, Shopify, Etsy, etc.)
+        so people can order directly.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      © <span id="year"></span> WorldEyeopener. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
